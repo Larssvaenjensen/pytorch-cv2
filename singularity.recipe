@@ -1,0 +1,10 @@
+bootstrap: docker
+from: nvcr.io/nvidia/pytorch:20.02-py3
+
+%post
+    echo "start" 
+    apt-get -y update
+    echo "1" 
+    pip install opencv-python
+    echo "slut" 
+    
